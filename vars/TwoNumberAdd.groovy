@@ -6,7 +6,9 @@ pipeline {
     stages {
         //下载代码
         stage("GetCode"){ //阶段名称
-            steps{  //步骤
+            steps{
+                //步骤
+                echo 'test'
             }
         }
     }
